@@ -11,8 +11,8 @@ function perch_bs4_link_pages( $output, $args = '' ) {
         'link_after'       => '</span>',
         'next_or_number'   => 'number',
         'separator'        => '',
-        'nextpagelink'     => __( 'Next', 'pergo'),
-        'previouspagelink' => __( 'Previous', 'pergo' ),
+        'nextpagelink'     => __( 'Next', 'text-domain'),
+        'previouspagelink' => __( 'Previous', 'text-domain' ),
         'pagelink'         => '%',
         'echo'             => 1
     );
