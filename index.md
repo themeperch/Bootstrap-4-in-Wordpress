@@ -10,7 +10,8 @@ You can get Bootstrap 4 style pagination list item.
 https://getbootstrap.com/docs/4.1/components/pagination/
 1. Include wp_link_pages.php in your theme function.php file
 2. Use this code snippent to display formatted output of a list of pages.
-```<?php
+```
+<?php
 wp_link_pages( array(					
 	'nextpagelink'     => __( 'Next', 'text-domain'),
 	'previouspagelink' => __( 'Previous', 'text-domain' ),
