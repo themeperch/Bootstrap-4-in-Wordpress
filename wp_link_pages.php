@@ -5,7 +5,7 @@ function perch_bs4_link_pages( $output, $args = '' ) {
     global $page, $numpages, $multipage, $more;
  
     $defaults = array(
-        'before'           => '<nav class="Page navigation><ul class="pagination justify-content-left"><li class="page-item"><span class="page-link">' . __( 'Pages:', 'pergo' ) . '</span></li>',
+        'before'           => '<nav class="Page navigation><ul class="pagination justify-content-left"><li class="page-item"><span class="page-link">' . esc_attr(__( 'Pages:', 'text-domain' )) . '</span></li>',
         'after'            => '</ul></nav><hr>',
         'link_before'      => '<span class="page-link">',
         'link_after'       => '</span>',
